@@ -1,0 +1,21 @@
+@mixin grupo1-img{
+    float: left;
+    width: 393px;
+    height: 264px;
+    padding-left: 39px;
+}
+@mixin grupo2-img{
+    float: left;
+    width: 393px;
+    height: 264px;
+    padding-left: 39px;
+}
+
+#grupo1-img img{
+    @include grupo1-img;
+}
+
+
+#grupo2-img img{
+    @include grupo2-img;
+}

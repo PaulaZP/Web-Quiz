@@ -1,16 +1,18 @@
 #quienes{
+    background-image: url("../img/bg.jpg");
     height: 557px;
     background-color: yellowgreen;
 }
 #iconos-2{
     float: left;
-    border: 1px solid black;
+    margin-top: 261px;
+    margin-left: 273px;
 }
 #somos{
-    float: right ;
-    border: 1px solid black;
+    float: right;
     width: 548px;
     color: white;
     margin-right: 144px;
     margin-top: 139px;
+    font-size: 18px;
 }

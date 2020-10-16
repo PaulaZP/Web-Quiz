@@ -1,0 +1,41 @@
+#footer{
+    background-color: #171717;
+    height: 235px;
+    color: white;
+    font-size: 16px;
+}
+
+#menu-footer{
+    margin-left: 418px;
+}
+#menu-list-footer{
+    list-style: none;
+    padding-top: 54px;
+    
+}
+
+#menu-list-footer li{
+    float: left ;
+    
+}
+
+#menu-list-footer li + li{
+    margin-left: 40px;
+    
+}
+
+#menu-list-footer a{
+    text-decoration: none;
+    color: white;
+}
+
+#face-footer{
+    text-align: center;
+    margin-top: 40px;
+}
+
+#copy{
+    text-align: center;
+    margin-top: 48px;
+    margin-bottom: 40px;
+}
