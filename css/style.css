@@ -1,65 +1,42 @@
-@charset "UTF-8";
-h3 {
-  font-size: 12px;
-  padding-left: 23px;
-  background-size: 8px;
-  background-position: 0 5px; }
+#wrapper {
+  width: 1441px;
+  margin: 0 auto;
+  border: 1px solid black; }
 
-h2 {
-  font-size: 18px;
-  padding-left: 30px;
-  background-position: 0 7px; }
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }
 
-/*--------Ubicación--------*/
-/*--------Colores--------*/
-h2, h3 {
-  text-transform: uppercase;
-  color: #090909;
-  padding-bottom: 12px;
-  background-image: url(../img/arrow.png);
-  background-repeat: no-repeat; }
+#header {
+  background-color: #000114;
+  height: 100px; }
 
-p {
-  color: #5d5d5d;
-  font-size: 12px;
-  line-height: 15px; }
-
-/*header*/
-#logo {
-  width: 19%;
+#iconos {
+  margin-top: 30px;
+  margin-left: 102px;
   float: left; }
+
+#iconos img {
+  width: 150px;
+  height: 50px; }
 
 #menu {
-  width: 68%;
   float: right;
-  position: absolute; }
+  margin-left: 37px; }
 
-#menu-link-email {
-  text-decoration: none;
-  color: #5d5d5d;
-  font-size: 13px;
-  position: absolute;
-  top: 0;
-  right: 0; }
-
-#menu-lista {
+#menu-list {
   list-style: none;
-  margin: 45px 0 0 0;
-  padding: 0; }
+  margin-top: 42px;
+  margin-right: 38px; }
 
-#menu-lista li {
+#menu-list li {
   float: left; }
 
-#menu-lista li + li {
-  margin-left: 63px; }
+#menu-list li + li {
+  margin-left: 40px; }
 
-#menu-lista a {
+#menu-list a {
   text-decoration: none;
-  color: #fe9b00;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 12px; }
-
-#slider img {
-  max-width: 100%;
-  width: 100%; }
+  color: white;
+  font-family: Arial, Helvetica, sans-serif; }
