@@ -1,6 +1,7 @@
 #header{
     background-color: #000114;
-    height: 100px;
+    height: 6.939%;
+    width: 100%;
 }
 
 #iconos{
@@ -9,6 +10,7 @@
     float: left;
 }
 #iconos img{
+    max-width: 100%;
     width: 150px;
     height: 50px;
 }
@@ -38,6 +40,11 @@
 #menu-list a{
     text-decoration: none;
     color: white;
+}
+
+#slider{
+    max-width: 100%;
+    width: 100%;
 }
 
 
