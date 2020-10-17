@@ -5,6 +5,9 @@
   padding-left: 39px;
   margin-bottom: 37px; }
 
+body {
+  margin-top: 0; }
+
 #wrapper {
   max-width: 100%;
   width: 1441px;
