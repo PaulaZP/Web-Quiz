@@ -1,18 +1,13 @@
-#grupo1-img img {
+#grupo-img img {
   float: left;
   width: 393px;
   height: 264px;
-  padding-left: 39px; }
-
-#grupo2-img img {
-  float: left;
-  width: 393px;
-  height: 264px;
-  padding-left: 39px; }
+  padding-left: 39px;
+  margin-bottom: 37px; }
 
 #wrapper {
   max-width: 100%;
-  max-width: 1441px;
+  width: 1441px;
   margin: 0 auto;
   font-family: Arial, Helvetica, sans-serif; }
 
@@ -22,12 +17,12 @@
   display: table; }
 
 #header {
-  background-color: #000114;
-  height: 100px;
-  width: 100%; }
+  max-width: 100%;
+  width: 100%;
+  background-color: #000114; }
 
 #iconos {
-  margin-top: 30px;
+  margin-top: 15px;
   margin-left: 102px;
   float: left; }
 
@@ -41,7 +36,7 @@
 
 #menu-list {
   list-style: none;
-  margin-top: 42px;
+  margin-top: 28px;
   margin-right: 38px; }
 
 #menu-list li {
@@ -54,7 +49,12 @@
   text-decoration: none;
   color: white; }
 
+#slider img {
+  max-width: 100%;
+  width: 100%; }
+
 #destacados {
+  max-width: 100%;
   width: 100%; }
 
 #titulo-paquetes {
@@ -62,24 +62,17 @@
   margin-bottom: 48px;
   text-align: center; }
 
-#grupo1-img {
-  margin-left: 48px;
-  margin-bottom: 51px; }
-
-#grupo2-img {
-  margin-left: 48px;
-  margin-bottom: 100px; }
+#grupo-img {
+  margin-left: 48px; }
 
 #quienes {
-  width: 100%;
   background-image: url("../img/bg.jpg");
-  height: 557px;
   background-color: yellowgreen; }
 
 #iconos-2 {
   float: left;
-  margin-top: 261px;
-  margin-left: 273px; }
+  padding-top: 261px;
+  padding-left: 273px; }
 
 #somos {
   float: right;
@@ -87,7 +80,8 @@
   color: white;
   margin-right: 144px;
   margin-top: 139px;
-  font-size: 18px; }
+  font-size: 18px;
+  padding-bottom: 50px; }
 
 #footer {
   width: 100%;
@@ -122,3 +116,37 @@
   text-align: center;
   margin-top: 48px;
   margin-bottom: 40px; }
+
+@media (max-width: 1023px) {
+  #header {
+    font-size: 14px; }
+  #quienes {
+    margin-top: 0; }
+  #iconos-2 {
+    float: none;
+    margin-left: 380px;
+    padding-top: 50px;
+    padding-left: 0; }
+  #somos h1 {
+    text-align: center; }
+  #somos {
+    float: none;
+    width: 548px;
+    color: white;
+    margin-left: 220px;
+    margin-top: 50px;
+    font-size: 14px;
+    text-align: justify;
+    padding-bottom: 35px; }
+  #footer {
+    width: 100%;
+    background-color: #171717;
+    height: 235px;
+    color: white;
+    font-size: 14px; }
+  #menu-footer {
+    margin-left: 235px; } }
+
+@media (max-width: 767px) {
+  #header {
+    font-size: 12px; } }
