@@ -7,7 +7,7 @@
     }
 
     #iconos-2 {
-        float: none;
+        float: $none;
         margin-left: 380px;
         padding-top: 50px;
         padding-left: 0;
@@ -16,7 +16,7 @@
         text-align: center;
     }
     #somos{
-        float: none;
+        float: $none;
         width: 548px;
         color: white;
         margin-left: 220px;
@@ -43,56 +43,56 @@
         position: relative;
     }
     .img-1{
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: $background-color-img;
         color: white;
         text-align: center;
         font-size: 30px;
-        position: absolute;
+        position: $absolute;
         bottom: 639px;
         right: 510px;
         padding: 10px 71px 10px 73px;
     }
     .img-2{
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: $background-color-img;
         color: white;
         font-size: 35px;
-        position: absolute;
+        position: $absolute;
         bottom: 639px;
         right: 78px;
         padding: 10px 55px 10px 55px;
     }
     .img-3{
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: $background-color-img;
         color: white;
         font-size: 35px;
-        position: absolute;
+        position: $absolute;
         bottom: 338px;
         right: 510px;
         padding: 10px 39px 10px 40px;
     }
     .img-4{
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: $background-color-img;
         color: white;
         font-size: 35px;
-        position: absolute;
+        position: $absolute;
         bottom: 338px;
         right: 78px;
         padding: 10px 52px 10px 51px;
     }
     .img-5{
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: $background-color-img;
         color: white;
         font-size: 35px;
-        position: absolute;
+        position: $absolute;
         bottom: 38px;
         right: 510px;
         padding: 10px 55px 10px 55px;
     }
     .img-6{
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: $background-color-img;
         color: white;
         font-size: 35px;
-        position: absolute;
+        position: $absolute;
         bottom: 38px;
         right: 79px;
         padding: 10px 39px 10px 40px;
