@@ -28,8 +28,8 @@ body {
   display: none; }
 
 #iconos {
-  margin-top: 15px;
-  margin-left: 102px;
+  margin-top: 1.04%;
+  margin-left: 7.07%;
   float: left; }
 
 #iconos img {
@@ -64,12 +64,12 @@ body {
   width: 100%; }
 
 #titulo-paquetes {
-  margin-top: 69px;
-  margin-bottom: 48px;
+  margin-top: 4.78%;
+  margin-bottom: 3.33%;
   text-align: center; }
 
 #grupo-img {
-  margin-left: 48px;
+  margin-left: 3.33%;
   position: relative; }
 
 .img-1 {
@@ -135,17 +135,17 @@ body {
 
 #iconos-2 {
   float: left;
-  padding-top: 261px;
-  padding-left: 273px; }
+  padding-top: 18.11%;
+  padding-left: 18.94%; }
 
 #somos {
   float: right;
-  width: 548px;
+  width: 38.0%;
   color: white;
-  margin-right: 144px;
-  margin-top: 139px;
+  margin-right: 9.99%;
+  margin-top: 9.64%;
   font-size: 18px;
-  padding-bottom: 50px; }
+  padding-bottom: 3.46%; }
 
 #footer {
   width: 100%;
@@ -155,18 +155,18 @@ body {
   font-size: 16px; }
 
 #menu-footer {
-  margin-left: 418px; }
+  margin-left: 29.0%; }
 
 #menu-list-footer {
   list-style: none;
-  padding-top: 54px;
+  padding-top: 3.74%;
   margin-top: 0; }
 
 #menu-list-footer li {
   float: left; }
 
 #menu-list-footer li + li {
-  margin-left: 40px; }
+  margin-left: 2.77%; }
 
 #menu-list-footer a {
   text-decoration: none;
@@ -174,12 +174,12 @@ body {
 
 #face-footer {
   text-align: center;
-  margin-top: 40px; }
+  margin-top: 2.77%; }
 
 #copy {
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px; }
+  padding-top: 1.38%;
+  padding-bottom: 1.38%; }
 
 @media (max-width: 1023px) {
   #header {
