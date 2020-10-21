@@ -2,6 +2,16 @@
     #menu{
         display: none;
     }
+    .menuMovil{
+        display: block;
+        color: white;
+        float: right;
+        font-size: 14px;
+        padding: 10px 20px;
+        margin-right: 10px;
+        border-radius: 5px;
+        background-color: rgb(25, 173, 199);
+    }
     #quienes{
         margin-top: 0;
     }

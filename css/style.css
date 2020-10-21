@@ -24,6 +24,9 @@ body {
   width: 100%;
   background-color: #000114; }
 
+.menuMovil {
+  display: none; }
+
 #iconos {
   margin-top: 15px;
   margin-left: 102px;
@@ -126,7 +129,9 @@ body {
 
 #quienes {
   background-image: url("../img/bg.jpg");
-  background-color: yellowgreen; }
+  background-color: yellowgreen;
+  width: 100%;
+  max-width: 100%; }
 
 #iconos-2 {
   float: left;
@@ -144,6 +149,7 @@ body {
 
 #footer {
   width: 100%;
+  max-width: 100%;
   background-color: #171717;
   color: white;
   font-size: 16px; }
@@ -177,9 +183,24 @@ body {
 
 @media (max-width: 1023px) {
   #header {
-    font-size: 14px; }
+    font-size: 14px;
+    max-width: 100%;
+    width: 100%; }
+  #menu {
+    display: none; }
+  .menuMovil {
+    display: block;
+    color: white;
+    float: right;
+    font-size: 14px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: #19adc7; }
   #quienes {
-    margin-top: 0; }
+    margin-top: 0;
+    max-width: 100%;
+    width: 100%; }
   #iconos-2 {
     float: none;
     margin-left: 380px;
@@ -198,6 +219,7 @@ body {
     padding-bottom: 35px; }
   #footer {
     width: 100%;
+    max-width: 100%;
     background-color: #171717;
     height: 235px;
     color: white;
@@ -260,6 +282,15 @@ body {
 @media (max-width: 767px) {
   #menu {
     display: none; }
+  .menuMovil {
+    display: block;
+    color: white;
+    float: right;
+    font-size: 14px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: #19adc7; }
   #quienes {
     margin-top: 0; }
   #grupo-img {
